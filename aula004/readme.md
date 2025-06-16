@@ -1,0 +1,1 @@
+## Leitura de ficheiros assíncronos e síncronos
