@@ -13,6 +13,10 @@ const server = http.createServer((req, res) => {
         case '/':
             view = 'home';
             break;
+        case '/home':
+            res.setHeader('Location', '/');
+            res.statusCode = 301;
+            res.end();
         case '/services':
             view = 'services';
             break;
